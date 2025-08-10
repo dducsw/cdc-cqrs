@@ -12,7 +12,6 @@ You can read some articles to get more detail:
 1. https://debezium.io/blog/2023/02/04/ddd-aggregates-via-cdc-cqrs-pipeline-using-kafka-and-debezium
 2. https://www.upsolver.com/blog/cqrs-event-sourcing-build-database-architecture
 
-[https://github.com/dducsw/cdc-cqrs.git](https://github.com/dducsw/cdc-cqrs.git)
 
 ## **CDC-CQRS pipeline with Debezium and Kafka**
 
