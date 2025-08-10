@@ -84,7 +84,7 @@ python script/insert_sample_data.py
 
 4. Start Kafka and Debezium
 
-- Configure Debezium using pg-ecommerce-connector.json.example.
+- Configure Debezium using`pg-ecommerce-connector.json.example`.
 - Start Kafka and Debezium services.
 
 5. Initial Load to MongoDB
@@ -107,4 +107,4 @@ spark-submit streaming/kafka-to-mongo-order_details.py
 
 - Update connection strings and credentials as needed.
 - Ensure MongoDB, Kafka, and PostgreSQL are running locally.
-- Debezium connector configuration is provided in `pg-ecommerce-connector.json.example.`
+- Debezium connector configuration is provided in `pg-ecommerce-connector.json.example`.
