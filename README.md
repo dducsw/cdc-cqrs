@@ -19,7 +19,7 @@ You can read some articles to get more detail:
 
 ### 📌 Short Description of the Project (Based on the Diagram)
 
-This is a **real-time data synchronization and analytics pipeline** using CDC and CQRS:
+This is a **data synchronization and analytics pipeline** using CDC and CQRS:
 
 1. **PostgreSQL** – Primary transactional data store (write model).
 2. **Debezium** – Captures real-time change events (CDC) from PostgreSQL WAL logs.
@@ -31,7 +31,7 @@ This is a **real-time data synchronization and analytics pipeline** using CDC an
 
 ### 🧩 Purpose of the Pipeline
 
-- Enable real-time data replication from PostgreSQL to MongoDB.
+- Enable data replication from PostgreSQL to MongoDB.
 - Support separation of concerns:
     - PostgreSQL: optimized for transactional writes.
     - MongoDB: optimized for analytical or reporting reads.
